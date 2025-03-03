@@ -1,194 +1,323 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CRENET Léo - Développeur Fullstack</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Léo CRENET - Développeur Fullstack</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="welcome-overlay">
+      <div class="welcome-content">
+        <h1 class="welcome-title">
+          <span style="animation-delay: 0.1s">C</span>
+          <span style="animation-delay: 0.2s">R</span>
+          <span style="animation-delay: 0.3s">E</span>
+          <span style="animation-delay: 0.4s">N</span>
+          <span style="animation-delay: 0.5s">E</span>
+          <span style="animation-delay: 0.6s">T</span>
+          <span style="animation-delay: 0.7s"> </span>
+          <span style="animation-delay: 0.8s">L</span>
+          <span style="animation-delay: 0.9s">é</span>
+          <span style="animation-delay: 1s">o</span>
+        </h1>
+        <div class="welcome-loader"></div>
+        <p class="welcome-subtitle">Développeur Web Fullstack</p>
+        <button class="welcome-enter-btn">DÉCOUVRIR MON PORTFOLIO</button>
+      </div>
+    </div>
+
     <header>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#presentation">PRÉSENTATION</a></li>
-                <li><a href="#competences">COMPÉTENCES</a></li>
-                <li><a href="#portfolio">PORTFOLIO</a></li>
-                <li><a href="#apropos">À PROPOS</a></li>
-                <li><a href="#contact">CONTACT</a></li>
-            </ul>
-        </nav>
+      <div class="github-icon">
+        <a href="https://github.com/JakEden" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#presentation">PRÉSENTATION</a></li>
+          <li><a href="#competences">COMPÉTENCES</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="#apropos">À PROPOS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
     </header>
 
-
     <section id="hero">
-        <div class="hero-content">
-            <h1>CRENET Léo - Développeur fullstack</h1>
-            <div class="cta-buttons">
-                <a href="#contact" class="btn primary">ME CONTACTER</a>
-            </div>
+      <div class="hero-content">
+        <h1>Léo CRENET - Développeur fullstack</h1>
+        <div class="cta-buttons">
+          <a href="#contact" class="btn primary">ME CONTACTER</a>
         </div>
+      </div>
     </section>
-
 
     <section id="presentation">
-        <div class="container">
-            <div class="profile">
-                <h2>CRENET Léo</h2>
-                <p class="age">26 ANS</p>
-                <p class="formation">
-                    Diplômé de la formation Développeur Web d'OpenClassrooms en 2025.
-                </p>
-                <p class="description">
-                    Développeur web fullstack spécialisé dans la transformation de maquettes graphiques en sites web fonctionnels et ergonomiques.
-                </p>
-                <p class="skills-intro">
-                    Capable de construire des sites web responsives avec le front-end (HTML, CSS, JavaScript, React) et de créer des API et bases de données avec le back-end (NodeJS, Express, MongoDB).
-                </p>
-                <p class="availability">
-                    Je peux optimiser les performances et réaliser la maintenance de sites existants pour un fonctionnement optimal et une bonne visibilité SEO, tout en gérant des projets web de A à Z, de la planification à la présentation client.
-                </p>
-            </div>
+      <div class="container">
+        <div class="profile">
+          <h2>Léo CRENET</h2>
+          <p class="age">26 ANS</p>
+          <p class="formation">
+            Diplômé de la formation Développeur Web d'OpenClassrooms en 2025.
+          </p>
+          <p class="description">
+            Développeur web fullstack spécialisé dans la transformation de
+            maquettes graphiques en sites web fonctionnels et ergonomiques.
+          </p>
+          <p class="skills-intro">
+            Capable de construire des sites web responsives avec le front-end
+            (HTML, CSS, JavaScript, React) et de créer des API et bases de
+            données avec le back-end (NodeJS, Express, MongoDB).
+          </p>
+          <p class="availability">
+            Je peux optimiser les performances et réaliser la maintenance de
+            sites existants pour un fonctionnement optimal et une bonne
+            visibilité SEO, tout en gérant des projets web de A à Z, de la
+            planification à la présentation client.
+          </p>
         </div>
+      </div>
     </section>
 
-
     <section id="competences">
-        <div class="section-header">
-            <h2>Mes compétences</h2>
-        </div>
-        
-        <div class="container">
-            <div class="skills-container">
-
-                <div class="skill-category">
-                    <div class="skill-icon">
-                        <i class="fa-brands fa-html5"></i>
-                    </div>
-                    <h3>Front-end</h3>
-                    <div class="skill-details">
-                        <p><strong>Langages :</strong> JavaScript (ES6+)</p>
-                        <p><strong>Frameworks et Bibliothèques :</strong> React</p>
-                        <p><strong>Intégration Web :</strong> HTML5, CSS3 (Flexbox, Grid, animations CSS), interfaces responsives</p>
-                    </div>
-                </div>
-
-
-                <div class="skill-category">
-                    <div class="skill-icon">
-                        <i class="fa-solid fa-database"></i>
-                    </div>
-                    <h3>Back-end</h3>
-                    <div class="skill-details">
-                        <p><strong>Langages et Frameworks :</strong> Node.js, Express.js</p>
-                        <p><strong>Bases de Données :</strong> MongoDB</p>
-                        <p><strong>API :</strong> Création et consommation d'API REST</p>
-                    </div>
-                </div>
-
-
-                <div class="skill-category">
-                    <div class="skill-icon">
-                        <i class="fa-solid fa-wrench"></i>
-                    </div>
-                    <h3>Méthodes et Outils</h3>
-                    <div class="skill-details">
-                        <p><strong>Gestion de Projet :</strong> Méthodologie Agile, découpage de fonctionnalités en tâches</p>
-                        <p><strong>Gestion de Version :</strong> Git, GitHub</p>
-                        <p><strong>Optimisation :</strong> Débogage, amélioration des performances, SEO</p>
-                        <p><strong>Documentation :</strong> Rédaction de spécifications techniques</p>
-                    </div>
-                </div>
+      <div class="section-header">
+        <h2>Mes compétences</h2>
+      </div>
+      <div class="container">
+        <div class="skills-container">
+          <div class="skill-category">
+            <div class="skill-icon">
+              <i class="fa-brands fa-html5"></i>
             </div>
+            <h3>Front-end</h3>
+            <div class="skill-details">
+              <p>
+                <strong>Langages :</strong> <i class="fab fa-js"></i> JavaScript
+                (ES6+)
+              </p>
+              <p>
+                <strong>Frameworks et Bibliothèques :</strong>
+                <i class="fab fa-react"></i> React
+              </p>
+              <p>
+                <strong>Intégration Web :</strong>
+                <i class="fab fa-html5"></i> HTML5,
+                <i class="fab fa-css3-alt"></i> CSS3 (Flexbox, Grid, animations
+                CSS), interfaces responsives
+              </p>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="skill-icon">
+              <i class="fa-solid fa-database"></i>
+            </div>
+            <h3>Back-end</h3>
+            <div class="skill-details">
+              <p>
+                <strong>Langages et Frameworks :</strong>
+                <i class="fab fa-node-js"></i> Node.js, Express.js
+              </p>
+              <p>
+                <strong>Bases de Données :</strong>
+                <i class="fas fa-database"></i> MongoDB
+              </p>
+              <p>
+                <strong>API :</strong>
+                <i class="fas fa-exchange-alt"></i> Création et consommation
+                d'API REST
+              </p>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="skill-icon">
+              <i class="fa-solid fa-wrench"></i>
+            </div>
+            <h3>Méthodes et Outils</h3>
+            <div class="skill-details">
+              <p>
+                <strong>Gestion de Projet :</strong>
+                <i class="fas fa-tasks"></i> Méthodologie Agile, découpage de
+                fonctionnalités en tâches
+              </p>
+              <p>
+                <strong>Gestion de Version :</strong>
+                <i class="fab fa-git-alt"></i> Git,
+                <i class="fab fa-github"></i> GitHub
+              </p>
+              <p>
+                <strong>Optimisation :</strong>
+                <i class="fas fa-tachometer-alt"></i> Débogage, amélioration des
+                performances, SEO
+              </p>
+              <p>
+                <strong>Documentation :</strong>
+                <i class="fas fa-file-alt"></i> Rédaction de spécifications
+                techniques
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section id="portfolio">
-        <div class="section-header">
-            <h2>Derniers projets</h2>
+      <div class="section-header">
+        <h2>Derniers projets</h2>
+      </div>
+      <div class="container">
+        <div class="project">
+          <h3>Mon Vieux Grimoire</h3>
+          <div class="project-image">
+            <img
+              src="images/mon-vieux-grimoire.jpg"
+              alt="Capture d'écran du projet Mon Vieux Grimoire"
+            />
+          </div>
+          <div class="project-description">
+            <h4>API de notation de livres</h4>
+            <p>
+              Développement d'une API backend pour une chaîne de librairies
+              permettant aux utilisateurs de référencer et noter des livres.
+            </p>
+            <p>
+              <strong>Technologies :</strong>
+              <i class="fab fa-node-js"></i> Node.js,
+              <i class="fab fa-node-js"></i> Express,
+              <i class="fas fa-database"></i> MongoDB,
+              <i class="fas fa-database"></i> Mongoose,
+              <i class="fas fa-key"></i> JWT,
+              <i class="fas fa-lock"></i> Bcrypt,
+              <i class="fas fa-file-upload"></i> Multer,
+              <i class="fas fa-image"></i> Sharp.
+            </p>
+            <p>
+              <strong>Fonctionnalités :</strong>
+              <i class="fas fa-user-shield"></i> Authentication,
+              <i class="fas fa-sync-alt"></i> CRUD complet,
+              <i class="fas fa-star"></i> système de notation,
+              <i class="fas fa-compress-arrows-alt"></i> optimisation d'images
+              (Green Code).
+            </p>
+            <p>
+              <a
+                href="https://github.com/JakEden/projet7OC"
+                class="github-link"
+              >
+                <i class="fab fa-github"></i>
+                https://github.com/JakEden/projet7OC
+              </a>
+            </p>
+          </div>
         </div>
-        
-        <div class="container">
 
-            <div class="project">
-                <h3>Mon Vieux Grimoire</h3>
-                <div class="project-image">
-                    <img src="images/mon-vieux-grimoire.jpg" alt="Capture d'écran du projet Mon Vieux Grimoire">
-                </div>
-                <div class="project-description">
-                    <h4>API de notation de livres</h4>
-                    <p>Développement d'une API backend pour une chaîne de librairies permettant aux utilisateurs de référencer et noter des livres.</p>
-                    <p><strong>Technologies :</strong> Node.js, Express, MongoDB, Mongoose, JWT, Bcrypt, Multer, Sharp.</p>
-                    <p><strong>Fonctionnalités :</strong> Authentication, CRUD complet, système de notation, optimisation d'images (Green Code).</p>
-                    <p><a href="https://github.com/JakEden/projet7OC" class="github-link">Lien GitHub du projet : https://github.com/JakEden/projet7OC</a></p>
-                </div>
-            </div>
+        <div class="project">
+          <h3>Application web React avec routage</h3>
+          <div class="project-image">
+            <img
+              src="images/kasa.jpg"
+              alt="Capture d'écran de l'application React"
+            />
+          </div>
+          <div class="project-description">
+            <h4>Développement front-end avec React et React Router</h4>
+            <p>
+              Dans ce projet, j'ai implémenté le front-end d'une application web
+              interactive en utilisant React pour créer une expérience
+              utilisateur moderne et réactive.
+            </p>
+            <p>
+              <strong>Frontend :</strong> <i class="fab fa-react"></i> React,
+              <i class="fas fa-route"></i> React Router,
+              <i class="fab fa-sass"></i> SASS,
+              <i class="fab fa-css3-alt"></i> Animations CSS,
+              <i class="fab fa-react"></i> Create React App
+            </p>
+            <p>
+              <strong>Méthodes :</strong>
+              <i class="fas fa-th"></i> Développement par composants,
+              <i class="fas fa-route"></i> gestion du routage dynamique
+            </p>
+            <p>
+              <a
+                href="https://github.com/JakEden/projet6OC"
+                class="github-link"
+              >
+                <i class="fab fa-github"></i>
+                https://github.com/JakEden/projet6OC
+              </a>
+            </p>
+          </div>
         </div>
-            
-            <div class="project">
-                <h3>Application web React avec routage</h3>
-                <div class="project-image">
-                    <img src="images/kasa.jpg" alt="Capture d'écran de l'application React">
-                </div>
-                <div class="project-description">
-                    <h4>Développement front-end avec React et React Router</h4>
-                    <p>Dans ce projet, j'ai implémenté le front-end d'une application web interactive en utilisant React pour créer une expérience utilisateur moderne et réactive.</p>
-                    <p><strong>Frontend :</strong> React, React Router, SASS, Animations CSS, Create React App</p>
-                    <p><strong>Méthodes :</strong> Développement par composants, gestion du routage dynamique</p>
-                    <p><a href="https://github.com/JakEden/projet6OC" class="github-link">lien github du projet : https://github.com/JakEden/projet6OC</a></p>
-                </div>
-            </div>
+      </div>
     </section>
 
     <section id="apropos">
-        <div class="section-header">
-            <h2>À propos</h2>
+      <div class="section-header">
+        <h2>À propos</h2>
+      </div>
+      <div class="container">
+        <div class="about-content">
+          <p class="about-item">
+            <span class="about-icon">🏀</span> En dehors du développement, je
+            consacre mon temps libre à deux de mes passions : les jeux vidéo et
+            la lecture. Que ce soit en plongeant dans des univers compétitifs ou
+            en me laissant absorber par un bon livre, ces activités m'aident à
+            trouver de nouvelles sources d'inspiration et d'énergie. Cette même
+            immersion me permet d'aborder les défis de développement avec une
+            approche unique et dynamique, en puisant dans ma créativité nourrie
+            par différents mondes et récits.
+          </p>
+          <p class="about-item">
+            <span class="about-icon">📅</span> Je suis actuellement disponible
+            pour des missions de toute durée, que ce soit en remote ou en
+            Haute-Marne. Mon objectif est de m'intégrer dans des projets où je
+            peux à la fois apporter mes compétences techniques et évoluer
+            personnellement.
+          </p>
+          <p class="about-item">
+            <span class="about-icon">💼</span> Je propose un tarif compétitif
+            pour des missions nécessitant un développement fullstack de qualité.
+            N'hésitez pas à me contacter pour discuter de vos projets.
+          </p>
         </div>
-        <div class="container">
-            <div class="about-content">
-                <p class="about-item">
-                    <span class="about-icon">🏀</span> En dehors du développement, je consacre mon temps libre à deux de mes passions : les jeux vidéo et la lecture. Que ce soit en plongeant dans des univers compétitifs ou en me laissant absorber par un bon livre, ces activités m'aident à trouver de nouvelles sources d'inspiration et d'énergie. Cette même immersion me permet d'aborder les défis de développement avec une approche unique et dynamique, en puisant dans ma créativité nourrie par différents mondes et récits.
-                </p>
-                
-                <p class="about-item">
-                    <span class="about-icon">📅</span> Je suis actuellement disponible pour des missions de toute durée, que ce soit en remote ou en Haute-Marne. Mon objectif est de m'intégrer dans des projets où je peux à la fois apporter mes compétences techniques et évoluer personnellement.
-                </p>
-                
-                <p class="about-item">
-                    <span class="about-icon">💼</span> Je propose un tarif compétitif pour des missions nécessitant un développement fullstack de qualité. N'hésitez pas à me contacter pour discuter de vos projets.
-                </p>
-            </div>
-        </div>
+      </div>
     </section>
 
     <section id="contact">
-        <div class="section-header">
-            <h2>Me contacter</h2>
+      <div class="section-header">
+        <h2>Me contacter</h2>
+      </div>
+      <div class="container">
+        <div class="contact-info">
+          <p class="contact-item">
+            <span class="contact-icon">
+              <i class="fas fa-mobile-alt"></i>
+            </span>
+            +33 6 35 93 25 40
+          </p>
+          <p class="contact-item">
+            <span class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </span>
+            leo.crenet@gmail.com
+          </p>
         </div>
-        <div class="container">
-            <div class="contact-info">
-                <p class="contact-item">
-                    <span class="contact-icon">
-                        <i class="fas fa-mobile-alt"></i>
-                    </span>
-                    +33 6 35 93 25 40
-                </p>
-                <p class="contact-item">
-                    <span class="contact-icon">
-                        <i class="fas fa-envelope"></i>
-                    </span>
-                    leo.crenet@gmail.com
-                </p>
-            </div>
-        </div>
+      </div>
     </section>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2025 - CRENET Léo. Tous droits réservés.</p>
-        </div>
+      <div class="container">
+        <p>&copy; 2025 - CRENET Léo. Tous droits réservés.</p>
+      </div>
     </footer>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
