@@ -736,7 +736,7 @@ footer p {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 510px) {
   .profile-img {
     width: 120px;
     height: 120px;
@@ -755,6 +755,7 @@ footer p {
   }
 
   nav ul li a {
+    white-space: nowrap;
     font-size: 8px;
     letter-spacing: 0.2px;
     padding: 5px 2px;
@@ -812,5 +813,25 @@ footer p {
 
   .welcome-title {
     font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .github-icon {
+    top: 10px;
+    left: 5px;
+  }
+
+  .github-icon a {
+    font-size: 18px;
+  }
+
+  nav ul li a {
+    font-size: 7px;
+    padding: 3px 1px;
+  }
+
+  nav ul li {
+    margin-left: 2px;
+    margin-right: 2px;
   }
 }
